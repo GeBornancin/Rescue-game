@@ -10,7 +10,7 @@
 #define PAREDE 		1
 #define INICIO 		2
 #define ANIMAL		3
-	#define PASSOU     		4
+#define PASSOU     	4
 
 
 typedef struct{
@@ -94,9 +94,6 @@ int main() {
 			printf("    (C: Caminho)(P: Parede)(I: Início)(A: Animal)(O: OK)");
 		
 		}
-
-		
-	
 
 		// CAPTURA TECLA
 		jogada = getch();
